@@ -7,10 +7,7 @@
 #Usage: $ python PathTabforFisher.py KEGGOrgCode OUTPUT.tsv
 #Outputs: A tab separated text file with pathway codes in the first column and compounds in corresponding rows
 
-##########UPDATES
-#Date: 14/03/2018
-#   NOT YET ----> Added transposing to the final output. Reques pandas package
-#
+
 
 #Import modules required
 from __future__ import print_function
