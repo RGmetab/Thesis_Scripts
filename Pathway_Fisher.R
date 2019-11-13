@@ -1,3 +1,8 @@
+#Title:  Metabolite Set Enrichment Analysis (MSEA)
+#Author: Rudi Grosman - UoL NMR Centre
+#Usage: pathwayFisher(Metabolites, PathTable)
+
+
 pathwayFisher <- function(Metabolites, PathTable, ConvTable=NULL,withEASE=T, PvalOnly=F, ShowMatches=F){
   
   if (is.data.frame(PathTable)){
@@ -72,7 +77,3 @@ pathwayFisher <- function(Metabolites, PathTable, ConvTable=NULL,withEASE=T, Pva
   return(ResultDF)
   
 }
-
-# Testing area
-# pathwayFisher(KEGG.Gender.MSEA.P,aga.pathtable,aga.convtable.path,ShowMatches = T)
-# pathwayFisher(KEGG.Gender.MSEA.A,aga.pathtable,aga.convtable.path,ShowMatches = T)
